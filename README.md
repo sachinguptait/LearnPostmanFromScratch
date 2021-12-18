@@ -13,40 +13,46 @@
 - Fix some common issues('Newman is not recognized' and Jenkins console encoding issue)
 ## Please go through below videos for detailed information:- [Click here to Subscribe the YouTube Channel](https://www.youtube.com/channel/UCLTE4_DaxM3w2pqjIrnkO8A?sub_confirmation=1)
 
-[![](https://i.ytimg.com/vi/qNw89cLBb3g/maxresdefault.jpg)](https://youtu.be/qNw89cLBb3g "POSTMAN SERIES (INTRODUCTION)")
+[!["POSTMAN SERIES (INTRODUCTION)"](https://i.ytimg.com/vi/qNw89cLBb3g/maxresdefault.jpg)](https://youtu.be/qNw89cLBb3g "POSTMAN SERIES (INTRODUCTION)")
 
-[![](https://i.ytimg.com/vi/Ka3xzn8RP8w/maxresdefault.jpg)](https://youtu.be/Ka3xzn8RP8w "POSTMAN SERIES(Creating Collection | Creating Folder & Sub-Folder| Invoking Get Request API)")
+[!["POSTMAN SERIES(Creating Collection | Creating Folder & Sub-Folder| Invoking Get Request API)"](https://i.ytimg.com/vi/Ka3xzn8RP8w/maxresdefault.jpg)](https://youtu.be/Ka3xzn8RP8w "POSTMAN SERIES(Creating Collection | Creating Folder & Sub-Folder| Invoking Get Request API)")
 
-[![](https://i.ytimg.com/vi/OcIk8a8loNo/maxresdefault.jpg)](https://youtu.be/OcIk8a8loNo "POSTMAN SERIES(Add Assertion| String, Number, Null, Status Code, Response Time Verification)")
+[!["POSTMAN SERIES(Add Assertion| String, Number, Null, Status Code, Response Time Verification)"](https://i.ytimg.com/vi/OcIk8a8loNo/maxresdefault.jpg)](https://youtu.be/OcIk8a8loNo "POSTMAN SERIES(Add Assertion| String, Number, Null, Status Code, Response Time Verification)")
 
-[![](https://i.ytimg.com/vi/XDcFZYy4c6k/maxresdefault.jpg)](https://youtu.be/XDcFZYy4c6k "POSTMAN SERIES(GET, POST, PUT and DELETE Request | POSITIVE and NEGATIVE Scenario Examples)")
+[!["POSTMAN SERIES(GET, POST, PUT and DELETE Request | POSITIVE and NEGATIVE Scenario Examples)"](https://i.ytimg.com/vi/XDcFZYy4c6k/maxresdefault.jpg)](https://youtu.be/XDcFZYy4c6k "POSTMAN SERIES(GET, POST, PUT and DELETE Request | POSITIVE and NEGATIVE Scenario Examples)")
 
-[![](https://i.ytimg.com/vi/dF8OoBq56Sw/maxresdefault.jpg)](https://youtu.be/dF8OoBq56Sw "Environment | Create and Set Variables | Use Variable’s Value in URL, Params")
+[!["Environment | Create and Set Variables | Use Variable’s Value in URL, Params"](https://i.ytimg.com/vi/dF8OoBq56Sw/maxresdefault.jpg)](https://youtu.be/dF8OoBq56Sw "Environment | Create and Set Variables | Use Variable’s Value in URL, Params")
 
-[![](https://i.ytimg.com/vi/b-jxmxzSQ7g/hqdefault.jpg)](https://youtu.be/b-jxmxzSQ7g "GLOBAL | Create and Set Variable | Difference between Global and Environment")
+[!["GLOBAL | Create and Set Variable | Difference between Global and Environment"](https://i.ytimg.com/vi/b-jxmxzSQ7g/hqdefault.jpg)](https://youtu.be/b-jxmxzSQ7g "GLOBAL | Create and Set Variable | Difference between Global and Environment")
 
-[![](https://i.ytimg.com/vi/kLNjszof-g0/hqdefault.jpg)](https://youtu.be/kLNjszof-g0 "HEADERS and RESPONSE TIME VERIFICATION | ADDING ASSERTION AT FOLDER LABEL")
+[!["HEADERS and RESPONSE TIME VERIFICATION | ADDING ASSERTION AT FOLDER LABEL"](https://i.ytimg.com/vi/kLNjszof-g0/hqdefault.jpg)](https://youtu.be/kLNjszof-g0 "HEADERS and RESPONSE TIME VERIFICATION | ADDING ASSERTION AT FOLDER LABEL")
 
-[![](https://i.ytimg.com/vi/ILCY_twuWnc/maxresdefault.jpg)](https://youtu.be/ILCY_twuWnc "Debugging with the Postman console")
+[!["Debugging with the Postman console"](https://i.ytimg.com/vi/ILCY_twuWnc/maxresdefault.jpg)](https://youtu.be/ILCY_twuWnc "Debugging with the Postman console")
 
-[![](https://i.ytimg.com/vi/AN1zZ0XZ5b0/hqdefault.jpg)](https://youtu.be/AN1zZ0XZ5b0 "Collection Runner")
+[!["Collection Runner"](https://i.ytimg.com/vi/AN1zZ0XZ5b0/hqdefault.jpg)](https://youtu.be/AN1zZ0XZ5b0 "Collection Runner")
 
-[![](https://i.ytimg.com/vi/WslX7VjO7Rc/hqdefault.jpg)](https://youtu.be/WslX7VjO7Rc "Export Collections and Environment")
+[!["Export Collections and Environment"](https://i.ytimg.com/vi/WslX7VjO7Rc/hqdefault.jpg)](https://youtu.be/WslX7VjO7Rc "Export Collections and Environment")
 
-[![](https://i.ytimg.com/vi/tTcw2Jdf8X4/maxresdefault.jpg)](https://youtu.be/tTcw2Jdf8X4 "Setup to run Collections via command prompt | NEWMAN | NODE | NPM")
+<!--- <div align="left">
+      <a href="https://youtu.be/WslX7VjO7Rc">
+         <img src="https://i.ytimg.com/vi/WslX7VjO7Rc/hqdefault.jpg" style="width:100%;">
+      </a>
+</div> -->
 
-[![](https://i.ytimg.com/vi/tFtxIrZycWQ/maxresdefault.jpg)](https://youtu.be/tFtxIrZycWQ "Run Collection in Command Prompt via NEWMAN")
+[!["Setup to run Collections via command prompt | NEWMAN | NODE | NPM"](https://i.ytimg.com/vi/tTcw2Jdf8X4/maxresdefault.jpg)](https://youtu.be/tTcw2Jdf8X4 "Setup to run Collections via command prompt | NEWMAN | NODE | NPM")
 
-[![](https://i.ytimg.com/vi/rP6kXTsnsNI/maxresdefault.jpg)](https://youtu.be/rP6kXTsnsNI "Generate the HTML report | newman reporter | iteration count")
+[!["Run Collection in Command Prompt via NEWMAN"](https://i.ytimg.com/vi/tFtxIrZycWQ/maxresdefault.jpg)](https://youtu.be/tFtxIrZycWQ "Run Collection in Command Prompt via NEWMAN")
 
-[![](https://i.ytimg.com/vi/a8EqVxfAT_4/maxresdefault.jpg)](https://youtu.be/a8EqVxfAT_4 "Jenkins Installation")
+[!["Generate the HTML report | newman reporter | iteration count"](https://i.ytimg.com/vi/rP6kXTsnsNI/maxresdefault.jpg)](https://youtu.be/rP6kXTsnsNI "Generate the HTML report | newman reporter | iteration count")
 
-[![](https://i.ytimg.com/vi/nWAu27g1MHE/maxresdefault.jpg)](https://youtu.be/nWAu27g1MHE "Postman Integration with Jenkins | Run Test Cases from Jenkins")
+[!["Jenkins Installation"](https://i.ytimg.com/vi/a8EqVxfAT_4/maxresdefault.jpg)](https://youtu.be/a8EqVxfAT_4 "Jenkins Installation")
 
-[![](https://i.ytimg.com/vi/ffp6XyZCdVM/maxresdefault.jpg)](https://youtu.be/ffp6XyZCdVM "Publish HTML, JUnit Reports in Jenkins")
+[!["Postman Integration with Jenkins | Run Test Cases from Jenkins"](https://i.ytimg.com/vi/nWAu27g1MHE/maxresdefault.jpg)](https://youtu.be/nWAu27g1MHE "Postman Integration with Jenkins | Run Test Cases from Jenkins")
 
-[![](https://i.ytimg.com/vi/n2pKCBXE0VY/maxresdefault.jpg)](https://youtu.be/n2pKCBXE0VY "How to Send Email from Jenkins with HTML report | Configure Email Notification in Jenkins")
+[!["Publish HTML, JUnit Reports in Jenkins"](https://i.ytimg.com/vi/ffp6XyZCdVM/maxresdefault.jpg)](https://youtu.be/ffp6XyZCdVM "Publish HTML, JUnit Reports in Jenkins")
 
-[![](https://i.ytimg.com/vi/mZGS-DFOJ8c/maxresdefault.jpg)](https://youtu.be/mZGS-DFOJ8c "How to fix "newman is not recognized" error || Could not find "htmlextra" reporter")
+[!["How to Send Email from Jenkins with HTML report | Configure Email Notification in Jenkins"](https://i.ytimg.com/vi/n2pKCBXE0VY/maxresdefault.jpg)](https://youtu.be/n2pKCBXE0VY "How to Send Email from Jenkins with HTML report | Configure Email Notification in Jenkins")
 
-[![](https://i.ytimg.com/vi/hUth62WmcMk/maxresdefault.jpg)](https://youtu.be/hUth62WmcMk "How to Fix Jenkins Console Log Encoding Issue on Windows | Console Character Issue")
+[!["How to fix "newman is not recognized" error || Could not find "htmlextra" reporter"](https://i.ytimg.com/vi/mZGS-DFOJ8c/maxresdefault.jpg)](https://youtu.be/mZGS-DFOJ8c "How to fix "newman is not recognized" error || Could not find "htmlextra" reporter")
+
+[!["How to Fix Jenkins Console Log Encoding Issue on Windows | Console Character Issue"](https://i.ytimg.com/vi/hUth62WmcMk/maxresdefault.jpg)](https://youtu.be/hUth62WmcMk "How to Fix Jenkins Console Log Encoding Issue on Windows | Console Character Issue")
