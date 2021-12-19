@@ -23,15 +23,40 @@
 
 [!["Environment | Create and Set Variables | Use Variable’s Value in URL, Params"](https://i.ytimg.com/vi/dF8OoBq56Sw/maxresdefault.jpg)](https://youtu.be/dF8OoBq56Sw "Environment | Create and Set Variables | Use Variable’s Value in URL, Params")
 
-[!["GLOBAL | Create and Set Variable | Difference between Global and Environment"](https://i.ytimg.com/vi/b-jxmxzSQ7g/hqdefault.jpg)](https://youtu.be/b-jxmxzSQ7g "GLOBAL | Create and Set Variable | Difference between Global and Environment")
+<!--- [!["GLOBAL | Create and Set Variable | Difference between Global and Environment"](https://i.ytimg.com/vi/b-jxmxzSQ7g/hqdefault.jpg)](https://youtu.be/b-jxmxzSQ7g "GLOBAL | Create and Set Variable | Difference between Global and Environment") -->
 
-[!["HEADERS and RESPONSE TIME VERIFICATION | ADDING ASSERTION AT FOLDER LABEL"](https://i.ytimg.com/vi/kLNjszof-g0/hqdefault.jpg)](https://youtu.be/kLNjszof-g0 "HEADERS and RESPONSE TIME VERIFICATION | ADDING ASSERTION AT FOLDER LABEL")
+<a href="https://youtu.be/b-jxmxzSQ7g" title="GLOBAL | Create and Set Variable | Difference between Global and Environment">
+  <p align="center">
+    <img width="100%" src="https://i.ytimg.com/vi/b-jxmxzSQ7g/hqdefault.jpg" alt="GLOBAL | Create and Set Variable | Difference between Global and Environment"/>
+  </p>
+</a>
+
+<!--- [!["HEADERS and RESPONSE TIME VERIFICATION | ADDING ASSERTION AT FOLDER LABEL"](https://i.ytimg.com/vi/kLNjszof-g0/hqdefault.jpg)](https://youtu.be/kLNjszof-g0 "HEADERS and RESPONSE TIME VERIFICATION | ADDING ASSERTION AT FOLDER LABEL")-->
+
+<a href="https://youtu.be/kLNjszof-g0" title="HEADERS and RESPONSE TIME VERIFICATION | ADDING ASSERTION AT FOLDER LABEL">
+  <p align="center">
+    <img width="100%" src="https://i.ytimg.com/vi/kLNjszof-g0/hqdefault.jpg" alt="HEADERS and RESPONSE TIME VERIFICATION | ADDING ASSERTION AT FOLDER LABEL"/>
+  </p>
+</a>
+
 
 [!["Debugging with the Postman console"](https://i.ytimg.com/vi/ILCY_twuWnc/maxresdefault.jpg)](https://youtu.be/ILCY_twuWnc "Debugging with the Postman console")
 
-[!["Collection Runner"](https://i.ytimg.com/vi/AN1zZ0XZ5b0/hqdefault.jpg)](https://youtu.be/AN1zZ0XZ5b0 "Collection Runner")
+<!--- [!["Collection Runner"](https://i.ytimg.com/vi/AN1zZ0XZ5b0/hqdefault.jpg)](https://youtu.be/AN1zZ0XZ5b0 "Collection Runner") -->
 
-[!["Export Collections and Environment"](https://i.ytimg.com/vi/WslX7VjO7Rc/hqdefault.jpg)](https://youtu.be/WslX7VjO7Rc "Export Collections and Environment")
+<a href="https://youtu.be/AN1zZ0XZ5b0" title="Collection Runner">
+  <p align="center">
+    <img width="100%" src="https://i.ytimg.com/vi/AN1zZ0XZ5b0/hqdefault.jpg" alt="Collection Runner"/>
+  </p>
+</a>
+
+<!--- [!["Export Collections and Environment"](https://i.ytimg.com/vi/WslX7VjO7Rc/hqdefault.jpg)](https://youtu.be/WslX7VjO7Rc "Export Collections and Environment") -->
+
+<a href="https://youtu.be/WslX7VjO7Rc" title="Export Collections and Environment">
+  <p align="center">
+    <img width="100%" src="https://i.ytimg.com/vi/WslX7VjO7Rc/hqdefault.jpg" alt="Export Collections and Environment"/>
+  </p>
+</a>
 
 <!--- <div align="left">
       <a href="https://youtu.be/WslX7VjO7Rc">
@@ -53,6 +78,6 @@
 
 [!["How to Send Email from Jenkins with HTML report | Configure Email Notification in Jenkins"](https://i.ytimg.com/vi/n2pKCBXE0VY/maxresdefault.jpg)](https://youtu.be/n2pKCBXE0VY "How to Send Email from Jenkins with HTML report | Configure Email Notification in Jenkins")
 
-[!["How to fix "newman is not recognized" error || Could not find "htmlextra" reporter"](https://i.ytimg.com/vi/mZGS-DFOJ8c/maxresdefault.jpg)](https://youtu.be/mZGS-DFOJ8c "How to fix "newman is not recognized" error || Could not find "htmlextra" reporter")
+[!["How to fix "newman is not recognized" error || Could not find "htmlextra" reporter"](https://i.ytimg.com/vi/mZGS-DFOJ8c/maxresdefault.jpg)](https://youtu.be/mZGS-DFOJ8c "How to fix 'newman is not recognized' error || Could not find 'htmlextra' reporter")
 
 [!["How to Fix Jenkins Console Log Encoding Issue on Windows | Console Character Issue"](https://i.ytimg.com/vi/hUth62WmcMk/maxresdefault.jpg)](https://youtu.be/hUth62WmcMk "How to Fix Jenkins Console Log Encoding Issue on Windows | Console Character Issue")
