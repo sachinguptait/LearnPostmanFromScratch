@@ -1,4 +1,4 @@
-## PostmanTest, In this collection, below following points have been covered
+## LearnPostmanFromScratch, following below points have been covered
 - What is Postman and how to use this
 - Creating collection, folders, sub-folders
 - Add assertions (string, number, null, status code, response time, headers)
