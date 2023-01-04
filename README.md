@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## LearnPostmanFromScratch, following below points have been covered
 - What is Postman and how to use this
 - Creating collection, folders, sub-folders
@@ -86,6 +85,3 @@
 
 [!["𝗘𝘅𝗲𝗰𝘂𝘁𝗲 𝗣𝗼𝘀𝘁𝗺𝗮𝗻 𝗖𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻 𝘄𝗶𝘁𝗵 𝗚𝗶𝘁𝗛𝘂𝗯 𝗔𝗰𝘁𝗶𝗼𝗻𝘀 | 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲 𝗛𝗧𝗠𝗟 𝗥𝗲𝗽𝗼𝗿𝘁 𝘄𝗶𝘁𝗵 𝗚𝗶𝘁𝗛𝘂𝗯 𝗔𝗰𝘁𝗶𝗼𝗻𝘀"](https://i.ytimg.com/vi/EGZS1RljAlg/maxresdefault.jpg)](https://youtu.be/EGZS1RljAlg "𝗘𝘅𝗲𝗰𝘂𝘁𝗲 𝗣𝗼𝘀𝘁𝗺𝗮𝗻 𝗖𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻 𝘄𝗶𝘁𝗵 𝗚𝗶𝘁𝗛𝘂𝗯 𝗔𝗰𝘁𝗶𝗼𝗻𝘀 and 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲 the 𝗛𝗧𝗠𝗟 𝗥𝗲𝗽𝗼𝗿𝘁 𝘄𝗶𝘁𝗵 𝗚𝗶𝘁𝗛𝘂𝗯 𝗔𝗰𝘁𝗶𝗼𝗻𝘀")
 
-=======
-# LearnPostmanFromScratch
->>>>>>> f951c06b4aec25ef76ea57ffcb7e727ae002c2c2
