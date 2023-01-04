@@ -1,0 +1,644 @@
+{
+	"info": {
+		"_postman_id": "1364bd26-e38d-4823-b797-6a4e7ae67ec3",
+		"name": "User Details",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Basic Testing",
+			"item": [
+				{
+					"name": "Get Users Details",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let res=pm.response.json();\r",
+									"console.log(\"Response is:- \",res);\r",
+									"\r",
+									"console.log(\"Email id of 1st index is:- \",res.data[0].email);\r",
+									"\r",
+									"pm.test(\"Verify 1st index email id\",function()\r",
+									"{\r",
+									"    pm.expect(res.data[0].email).to.eql(\"george.bluth@reqres.in\"); \r",
+									"\r",
+									"    pm.expect(res.data[0].email).to.equals(\"george.bluth@reqres.in\"); //==\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Example of eql\",function()\r",
+									"{\r",
+									"    let a={\r",
+									"        \"fruitName\":\"Apple\"\r",
+									"    };\r",
+									"\r",
+									"    let b={\r",
+									"        \"fruitName\":\"Apple\"\r",
+									"    }\r",
+									"\r",
+									"    pm.expect(a).to.eql(b);\r",
+									"}\r",
+									");\r",
+									"\r",
+									"pm.test(\"Example of equals\",function()\r",
+									"{\r",
+									"    let a={\r",
+									"        \"fruitName\":\"Apple\"\r",
+									"    };\r",
+									"\r",
+									"    let b={\r",
+									"        \"fruitName\":\"Apple\"\r",
+									"    }\r",
+									"\r",
+									"   //pm.expect(a).to.equals(b);\r",
+									"}\r",
+									");\r",
+									"\r",
+									"pm.test(\"Email format verification of 1st index email\", function () {\r",
+									"    pm.expect(res.data[0].email).to.include(\"@reqres.in\");\r",
+									"\r",
+									"    pm.expect(res.data[0].email).contains(\"@reqres.in\");\r",
+									"   // pm.expect(res.data[0].email).to.eql(\"michael.lawson@reqres.in\"); \r",
+									"});\r",
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Status code name has OK\", function () {\r",
+									"    pm.response.to.have.status(\"OK\");\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Asserting null value\", function () {\r",
+									"    //pm.expect(res.total,\"noo it should not fail\").to.be.null;\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Verify Total page should be greater than 1\", function () {\r",
+									"    pm.expect(res.total).to.greaterThan(1);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/api/users?page=1",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Single User Details",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200(get single user details)\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Content-Type is present\", function () {\r",
+									"    pm.response.to.have.header(\"Content-Type\",\"application/json; charset=utf-8\");\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/api/users/2",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User Details(Delayed Response)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200(Delayed Response)\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/api/users?delay=1",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "delay",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201(Create User)\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									"\r",
+									"let res=pm.response.json();\r",
+									"\r",
+									"pm.test(\"Veryfying ID after creating the new user\", function()\r",
+									"{\r",
+									"    pm.expect(parseInt(res.id)).to.greaterThan(1);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.environment.set(\"userAdd_ID\", res.id);\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"{{name}}\",\r\n    \"job_Title\": \"{{job_Title}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/users",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 204(Delete User)\", function () {\r",
+									"    pm.response.to.have.status(204);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/user/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"user",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update User Details",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200(Update User)\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Sachin_G\",\r\n    \"job\": \"Automation Test Engineer\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/user/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"user",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Open Weather API",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let res=pm.response.json();\r",
+									"\r",
+									"pm.test(\"City name should be matched\",function()\r",
+									"{\r",
+									"    pm.expect(res.name).to.equal(environment.city);\r",
+									"     pm.expect(res.name).to.equal(pm.environment.get(\"city\"));\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://api.openweathermap.org/data/2.5/weather?q={{city}}&appid={{appID}}",
+							"protocol": "http",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "{{city}}"
+								},
+								{
+									"key": "appid",
+									"value": "{{appID}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Response time is less than 2000ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+							"});"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Negative Testing",
+			"item": [
+				{
+					"name": "Invalid User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404(Invalid User)\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/api/users/25",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"25"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Open Weather(with Blank City)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 400(Open Weather API with blank city)\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});\r",
+									"\r",
+									"let res=pm.response.json();\r",
+									"\r",
+									"pm.test(\"When city name is blank\",function()\r",
+									"{\r",
+									"    pm.expect(res.message).to.equal(\"Nothing to geocode\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Sachin_G\",\r\n    \"job\": \"Automation Test Engineer\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://api.openweathermap.org/data/2.5/weather?q=&appid=17e5c69afcef0f16365a6c3b0cba4400",
+							"protocol": "http",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": ""
+								},
+								{
+									"key": "appid",
+									"value": "17e5c69afcef0f16365a6c3b0cba4400"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Open Weather(with special char City name)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404(Open Weather API with special characters)\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});\r",
+									"\r",
+									"let res=pm.response.json();\r",
+									"\r",
+									"pm.test(\"When special chars are in city name\",function()\r",
+									"{\r",
+									"    pm.expect(res.message).to.equal(\"city not found\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Sachin_G\",\r\n    \"job\": \"Automation Test Engineer\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://api.openweathermap.org/data/2.5/weather?q=@%23!&appid={{appID}}",
+							"protocol": "http",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "@%23!"
+								},
+								{
+									"key": "appid",
+									"value": "{{appID}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Open Weather(Invalid API Key)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 401(Open Weather API with invalid key)\", function () {\r",
+									"    pm.response.to.have.status(401);\r",
+									"});\r",
+									"\r",
+									"let res=pm.response.json();\r",
+									"\r",
+									"pm.test(\"When API key is invalid\",function()\r",
+									"{\r",
+									"    pm.expect(res.message).to.contains(\"Invalid API key.\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Sachin_G\",\r\n    \"job\": \"Automation Test Engineer\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://api.openweathermap.org/data/2.5/weather?q=New Delhi&appid=17e5c69afcef",
+							"protocol": "http",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "New Delhi"
+								},
+								{
+									"key": "appid",
+									"value": "17e5c69afcef"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
